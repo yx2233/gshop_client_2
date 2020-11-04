@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<FooterGuide></FooterGuide>
+		11222
 	</div>
 </template>
 
@@ -14,6 +14,6 @@
 	}
 </script>
 
-<style lang="stylus" rel="stylesheet/stylus">
+<style >
 	
 </style>
