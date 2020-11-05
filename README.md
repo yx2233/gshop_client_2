@@ -33,7 +33,18 @@
 ### 3.
 	拆分页面，分为路由组件和非路由组件
 	
-	
-	
-	
+### 4.底部导航条的样式，页面切换
+	样式：
+		动态强制绑定class实现：对象语法+类名+布尔值
+		何时用对象语法：类名确定，只是不确定有还是没有
+		请求路径是否与当前路径相等，请求路径在F12，找到Vue,右边的$route
+		:class={on:"/msite" === $route.path}
+	页面切换：
+		方式1：@click="$router.replace('/msite')"
+		方式2：@click="goTo(/msite)"
+				methods:{
+					goTo(path){
+						this.$router.replace(path)
+					}
+				}
 	

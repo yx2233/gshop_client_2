@@ -1,6 +1,5 @@
 <template>
 	<div id="app">
-		<!-- app -->
 		<router-view/>
 		<FooterGuide/>
 	</div>
@@ -20,5 +19,9 @@
 	}
 </script>
 <style>
-	
+	#app{
+		width: 100%;
+		height: 100%;
+		background: #F5F5F5;
+	}
 </style>
