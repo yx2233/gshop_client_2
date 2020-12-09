@@ -126,26 +126,55 @@
 		<!-- 首页附近商家 -->
 		<div class="msite_shop_list">
 			<div class="shop_header">
-				<i class="iconfont icon-xuanziang"></i>
+				<i class="iconfont icon-xuanxiang"></i>
 				<span class="shop_header_title">附近商家</span>
 			</div>
 			<div class="shop_container">
-				<ul>
-					<li>
+				<ul class="shop_list">
+					<li class="shop_li">
 						<a href="">
 							<div class="shop_left">
 								<img class="shop_img" src="./images/nav/1.jpg" alt="">
 							</div>
 							<div class="shop_right">
 								<section class="shop_detail_header">
-									<h4 class="shop_title">锄禾日当午，汗滴禾下土</h4>
+									<h4 class="shop_title ellipsis">锄禾日当午，汗滴禾下土</h4>
 									<ul class="shop_detail_ul">
-										
+										<li class="supports">保</li>
+										<li class="supports">准</li>
+										<li class="supports">票</li>
 									</ul>
+								</section>
+								<section class="shop_rating_order">
+									<section class="shop_rating_order_left">
+										<div class="str str-24">
+											<span class="star-item on"></span>
+											<span class="star-item on"></span>
+											<span class="star-item on"></span>
+											<span class="star-item half"></span>
+											<span class="star-item off"></span>
+										</div>
+										<!-- <div class="rating_section">3.6</div>
+										<div class="order_section">月售106单</div> -->
+										<span class="rating_section">3.6</span>
+										<span class="order_section">月售106单</span>
+									</section>
+									<section class="shop_rating_order_right">
+										<span class="delivery_style delivery_left">硅谷专送</span>
+										<!-- <span class="delivery_style delivery_right">硅谷专送</span> -->
+									</section>
+								</section>
+								<section class="shop_distance">
+									<p class="shop_delivery_msg">
+										<span>￥20元起送</span>
+										<span>/</span>
+										<span>配送费￥5</span>
+									</p>
 								</section>
 							</div>
 						</a>
 					</li>
+					
 				</ul>
 			</div>
 		</div>
@@ -162,6 +191,166 @@
 	.msite{
 		width: 100%;
 	}
+	.shop_rating_order{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		margin-top: 18px;
+		margin-bottom: 8px;
+	}
+	.shop_rating_order_left{
+		/* color: #FF9A0D; */
+		
+	}
+	/* 星星 */
+	.star .star-item {
+		display: inline-block;
+		background-repeat: no-repeat;
+	}
+	
+	.star.star-48 .star-item {
+		width: 20px;
+		height: 20px;
+		margin-right: 22px;
+		background-size: 20px 20px;
+	}
+	
+	.star.star-48 .star-item:last-child {
+		margin-right: 0;
+	}
+	
+	.star.star-48 .star-item.on {
+		background-image: url("./images/stars/star48_on@2x.png");
+	}
+	
+	/* @media (-webkit-min-device-pixel-ratio: 3),
+	(min-device-pixel-ratio: 3) {
+		.star.star-48 .star-item.on {
+			background-image: url("./images/stars/star48_on@3x.png");
+		}
+	} */
+	
+	.star.star-48 .star-item.half {
+		background-image: url("./images/stars/star48_half@2x.png");
+	}
+	
+	/* @media (-webkit-min-device-pixel-ratio: 3),
+	(min-device-pixel-ratio: 3) {
+		.star.star-48 .star-item.half {
+			background-image: url("./images/stars/star48_half@3x.png");
+		}
+	} */
+	
+	.star.star-48 .star-item.off {
+		background-image: url("./images/stars/star48_off@2x.png");
+	}
+	
+	/* @media (-webkit-min-device-pixel-ratio: 3),
+	(min-device-pixel-ratio: 3) {
+		.star.star-48 .star-item.off {
+			background-image: url("./images/stars/star48_off@3x.png");
+		}
+	} */
+	
+	.star.star-36 .star-item {
+		width: 15px;
+		height: 15px;
+		margin-right: 6px;
+		background-size: 15px 15px;
+	}
+	
+	.star.star-36 .star-item:last-child {
+		margin-right: 0;
+	}
+	
+	.star.star-36 .star-item.on {
+		background-image: url("./images/stars/star36_on@2x.png");
+	}
+	
+	/* @media (-webkit-min-device-pixel-ratio: 3),
+	(min-device-pixel-ratio: 3) {
+		.star.star-36 .star-item.on {
+			background-image: url("./images/stars/star36_on@3x.png");
+		}
+	} */
+	
+	.star.star-36 .star-item.half {
+		background-image: url("./images/stars/star36_half@2x.png");
+	}
+	
+	/* @media (-webkit-min-device-pixel-ratio: 3),
+	(min-device-pixel-ratio: 3) {
+		.star.star-36 .star-item.half {
+			background-image: url("./images/stars/star36_half@3x.png");
+		}
+	} */
+	
+	.star.star-36 .star-item.off {
+		background-image: url("./images/stars/star36_off@2x.png");
+	}
+	
+	/* @media (-webkit-min-device-pixel-ratio: 3),
+	(min-device-pixel-ratio: 3) {
+		.star.star-36 .star-item.off {
+			background-image: url("./images/stars/star36_off@3x.png");
+		}
+	} */
+	
+	.star.star-24 .star-item {
+		width: 10px;
+		height: 10px;
+		margin-right: 3px;
+		background-size: 10px 10px;
+	}
+	
+	.star.star-24 .star-item:last-child {
+		margin-right: 0;
+	}
+	
+	.star.star-24 .star-item.on {
+		background-image: url("./images/stars/star24_on@2x.png");
+	}
+	
+	/* @media (-webkit-min-device-pixel-ratio: 3),
+	(min-device-pixel-ratio: 3) {
+		.star.star-24 .star-item.on {
+			background-image: url("./images/stars/star24_on@3x.png");
+		}
+	} */
+	
+	.star.star-24 .star-item.half {
+		background-image: url("./images/stars/star24_half@2x.png");
+	}
+	
+	/* @media (-webkit-min-device-pixel-ratio: 3),
+	(min-device-pixel-ratio: 3) {
+		.star.star-24 .star-item.half {
+			background-image: url("./images/stars/star24_half@3x.png");
+		}
+	} */
+	
+	.star.star-24 .star-item.off {
+		background-image: url("./images/stars/star24_off@2x.png");
+	}
+	
+	/* @media (-webkit-min-device-pixel-ratio: 3),
+	(min-device-pixel-ratio: 3) {
+		.star.star-24 .star-item.off {
+			background-image: url("./images/stars/star24_off@3x.png");
+		}
+	} */
+	
+	.shop_rating_order_right{
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
@@ -189,6 +378,15 @@
 		color: #fff;
 		font-size: 25px;
 	}
+	.header_title{
+		width: 50%;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+		text-align: center;
+		
+	}
 	.header_title_text{
 		color: #fff;
 		font-size: 20px;
@@ -197,6 +395,7 @@
 		color: #fff;
 		font-size: 14px;
 	}
+	
 	
 	.msite_nav{
 		margin-top: 45px;
@@ -225,6 +424,87 @@
 	.food_container img{
 		width: 50px;
 		height: 50px;
+	}
+	.msite_shop_list{
+		border-top:1px solid #e4e4e4;
+		margin-top:10px;
+		background-color: #fff;
+	}
+	.shop_header{
+		padding:10px 10px 0 10px;
+		color: #999;
+	}
+	.shop_header_title{
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.shop_container{
+		margin-bottom: 50px;
+	}
+	.shop_li{
+		border-bottom: 1px solid #f1f1f1;
+		width: 100%;
+		box-sizing: border-box;
+		padding: 15px 8px;
+	}
+	.shop_li a{
+		display: flex;
+		flex-wrap: nowrap;
+	}
+	.shop_li a .shop_left{
+		width: 23%;
+		height: 75px;
+		padding-right: 10px;
+	}
+	.shop_img{
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+	.shop_right{
+		width: 77%;
+	}
+	.shop_detail_header{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: nowrap;
+	}
+	.shop_title{
+		width: 70%;
+		color: #333;
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 16px;
+	}
+	/* .text_ellipsis{
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	} */
+	
+	.shop_title::before{
+		content: '品牌';
+		display: inline-block;
+		color: #333;
+		font-size: 11px;
+		line-height: 11px;
+		background-color: #ffd930;
+		padding: 2px 2px;
+		border-radius: 2px;
+		margin-right: 5px;
+	}
+	.shop_detail_ul{
+		width: 30%;
+		display: flex;
+		justify-content: flex-end;
+	}
+	.shop_detail_ul .supports{
+		color: #999;
+		font-size: 14px;
+		border:1px solid #f1f1f1;
+		border-radius: 2px;
+		padding: 0 2px;
 	}
 	
 	
