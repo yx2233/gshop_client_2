@@ -174,7 +174,135 @@
 							</div>
 						</a>
 					</li>
-					
+					<li class="shop_li">
+						<a href="">
+							<div class="shop_left">
+								<img class="shop_img" src="./images/nav/1.jpg" alt="">
+							</div>
+							<div class="shop_right">
+								<section class="shop_detail_header">
+									<h4 class="shop_title ellipsis">锄禾日当午，汗滴禾下土</h4>
+									<ul class="shop_detail_ul">
+										<li class="supports">保</li>
+										<li class="supports">准</li>
+										<li class="supports">票</li>
+									</ul>
+								</section>
+								<section class="shop_rating_order">
+									<section class="shop_rating_order_left">
+										<div class="str str-24">
+											<span class="star-item on"></span>
+											<span class="star-item on"></span>
+											<span class="star-item on"></span>
+											<span class="star-item half"></span>
+											<span class="star-item off"></span>
+										</div>
+										<!-- <div class="rating_section">3.6</div>
+										<div class="order_section">月售106单</div> -->
+										<span class="rating_section">3.6</span>
+										<span class="order_section">月售106单</span>
+									</section>
+									<section class="shop_rating_order_right">
+										<span class="delivery_style delivery_left">硅谷专送</span>
+										<!-- <span class="delivery_style delivery_right">硅谷专送</span> -->
+									</section>
+								</section>
+								<section class="shop_distance">
+									<p class="shop_delivery_msg">
+										<span>￥20元起送</span>
+										<span>/</span>
+										<span>配送费￥5</span>
+									</p>
+								</section>
+							</div>
+						</a>
+					</li>
+					<li class="shop_li">
+						<a href="">
+							<div class="shop_left">
+								<img class="shop_img" src="./images/nav/1.jpg" alt="">
+							</div>
+							<div class="shop_right">
+								<section class="shop_detail_header">
+									<h4 class="shop_title ellipsis">锄禾日当午，汗滴禾下土</h4>
+									<ul class="shop_detail_ul">
+										<li class="supports">保</li>
+										<li class="supports">准</li>
+										<li class="supports">票</li>
+									</ul>
+								</section>
+								<section class="shop_rating_order">
+									<section class="shop_rating_order_left">
+										<div class="str str-24">
+											<span class="star-item on"></span>
+											<span class="star-item on"></span>
+											<span class="star-item on"></span>
+											<span class="star-item half"></span>
+											<span class="star-item off"></span>
+										</div>
+										<!-- <div class="rating_section">3.6</div>
+										<div class="order_section">月售106单</div> -->
+										<span class="rating_section">3.6</span>
+										<span class="order_section">月售106单</span>
+									</section>
+									<section class="shop_rating_order_right">
+										<span class="delivery_style delivery_left">硅谷专送</span>
+										<!-- <span class="delivery_style delivery_right">硅谷专送</span> -->
+									</section>
+								</section>
+								<section class="shop_distance">
+									<p class="shop_delivery_msg">
+										<span>￥20元起送</span>
+										<span>/</span>
+										<span>配送费￥5</span>
+									</p>
+								</section>
+							</div>
+						</a>
+					</li>
+					<li class="shop_li">
+						<a href="">
+							<div class="shop_left">
+								<img class="shop_img" src="./images/nav/1.jpg" alt="">
+							</div>
+							<div class="shop_right">
+								<section class="shop_detail_header">
+									<h4 class="shop_title ellipsis">锄禾日当午，汗滴禾下土</h4>
+									<ul class="shop_detail_ul">
+										<li class="supports">保</li>
+										<li class="supports">准</li>
+										<li class="supports">票</li>
+									</ul>
+								</section>
+								<section class="shop_rating_order">
+									<section class="shop_rating_order_left">
+										<div class="str str-24">
+											<span class="star-item on"></span>
+											<span class="star-item on"></span>
+											<span class="star-item on"></span>
+											<span class="star-item half"></span>
+											<span class="star-item off"></span>
+										</div>
+										<!-- <div class="rating_section">3.6</div>
+										<div class="order_section">月售106单</div> -->
+										<span class="rating_section">3.6</span>
+										<span class="order_section">月售106单</span>
+									</section>
+									<section class="shop_rating_order_right">
+										<span class="delivery_style delivery_left">硅谷专送</span>
+										<!-- <span class="delivery_style delivery_right">硅谷专送</span> -->
+									</section>
+								</section>
+								<section class="shop_distance">
+									<p class="shop_delivery_msg">
+										<span>￥20元起送</span>
+										<span>/</span>
+										<span>配送费￥5</span>
+									</p>
+								</section>
+							</div>
+						</a>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -442,7 +570,8 @@
 		margin-bottom: 50px;
 	}
 	.shop_li{
-		border-bottom: 1px solid #f1f1f1;
+		border-bottom: 2px solid green;
+		/* border-bottom: 1px solid #f1f1f1; */
 		width: 100%;
 		box-sizing: border-box;
 		padding: 15px 8px;

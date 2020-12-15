@@ -5,7 +5,7 @@ import Msite from "../pages/Msite/Msite.vue"
 import Search from "../pages/Search/Search.vue"
 import Order from "../pages/Order/Order.vue"
 import Profile from "../pages/Profile/Profile.vue"
- 
+
 // 声明调用此插件
 Vue.use(VueRouter)
 
