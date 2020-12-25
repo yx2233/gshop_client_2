@@ -1,25 +1,25 @@
 <template>
 	<div class="footer_guide top-border-1px">
 		<!-- :class="{on:true/false}" -->
-		<span class="guide_item">
+		<span class="guide_item" :class="{on:$route.path === '/msite'}" @click="goTo('/msite')">
 			<span class="item_icon">
-				<i class="  icon-waimai"></i>
+				<i class="iconfont icon-waimai"></i>
 			</span>
 			<span>首页</span>
 		</span>
-		<span class="guide_item">
+		<span class="guide_item" :class="{on:$route.path === '/search'}" @click="goTo('/search')">
 			<span class="item_icon">
 				<i class="iconfont icon-search"></i>
 			</span>
 			<span>搜索</span>
 		</span>
-		<span class="guide_item">
+		<span class="guide_item" :class="{on:$route.path === '/order'}" @click="goTo('/order')">
 			<span class="item_icon">
 				<i class="iconfont icon-dingdan"></i>
 			</span>
 			<span>订单</span>
 		</span>
-		<span class="guide_item">
+		<span class="guide_item" :class="{on:$route.path === '/profile'}" @click="goTo('/profile')">
 			<span class="item_icon">
 				<i class="iconfont icon-geren"></i>
 			</span>
@@ -36,7 +36,9 @@
 			}
 		},
 		methods:{
-			
+			goTo(path){
+				this.$router.push(path);
+			}
 		}
 	}
 </script>
@@ -73,6 +75,12 @@
 		text-align: center;
 		margin: 5px;
 		color: #999999;
+	}
+	.footer_guide .guide_item .iconfont{
+		font-size: 20px;
+	}
+	.footer_guide .guide_item.on{
+		color: #02a774;
 	}
 	.footer_guide .guide_item span{
 		margin-top: 2px;
