@@ -97,7 +97,6 @@
 			<div class="shop-container">
 				<ul class="shop_list">
 					<li class="shop_li">
-<<<<<<< HEAD
 						<div class="shop_left">
 							<img src="./images/shop/1.jpg" alt="">
 						</div>
@@ -132,7 +131,6 @@
 								<span>配送费约¥5</span>
 							</section>
 						</div>
-=======
 						<a href="">
 							<div class="shop_left">
 								<img class="shop_img" src="./images/nav/1.jpg" alt="">
@@ -174,7 +172,6 @@
 								</section>
 							</div>
 						</a>
->>>>>>> 6cb4574b89213c492421a8eb3c07db1d6d2a2d57
 					</li>
 				</ul>
 			</div>
