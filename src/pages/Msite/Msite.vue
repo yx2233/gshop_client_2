@@ -144,7 +144,9 @@
 <script>
 	// 引入swiper插件的css和js
 	import Swiper from 'swiper'
-	import 'swiper/swiper.min.css'
+	// import 'swiper/swiper.min.css'
+	// import 'swiper/css/swiper.min.css'
+	import "swiper/dist/css/swiper.min.css"
 
 	import HeaderTop from '../../components/HeaderTop/HeaderTop.vue'
 	import ShopList from '../../components/ShopList/ShopList.vue'
